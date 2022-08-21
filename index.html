@@ -1,15 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Blogger</title>
-
-    <!-- custom style-->
-    <link rel="stylesheet" href="style.css">
+<title>Travel Blogger</title>
+ 
+<!-- custom style-->
+-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/main style.css">
+    <link rel="stylesheet" href="./css/card style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="https://kit.fontawesome.com/ebcced0539.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+-    
+    <div class="container">
+    <nav class="head">
+        <a href="./index.html">
+            <img src="./assets/Logo small.jpg" alt="Logo" class="logo-responsive">
+          </a>
+     <div id="menu" class="nav-bar"ß>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a class='dropdown-arrow' href='http://'>Destinations</a>
+            <ul class='sub-menus'>
+              <li><a href='http://'>Europe</a></li>
+              <li><a href='http://'>Middle East </a></li>
+              <li><a href='http://'>Far East</a></li>
+              <li><a href='http://'>America</a></li>
+            </ul>
+          </li>
+          <li><a href='./about.html'>About</a></li>
+          <li><a class='dropdown-arrow' href='http://'>Travel tips</a>
+            <ul class='sub-menus'>
+              <li><a href='http://'>Tip 1</a></li>
+              <li><a href='http://'>Tip 2</a></li>
+              <li><a href='http://'>Tip 3</a></li>
+            </ul>
+          </li>
+          <li><a href='http://'>Contact Us</a></li>
+        </ul>
+    </div>
+    <div>
+    <a href="#" class="signUp">SIGN UP</a>
+    <a href="#" class="signIn">SIGN IN</a>
+</div>      
+</nav>
+
+    <div class="main">
+        <div class="flex-container">
+            <div class="card">
+                <div class="card-header">
+                  <img src="./assets/Petra.jpg" alt="photo of Petra Jordan" />
+                </div>
+                <div class="card-body">
+                  <span class="tag tag-teal">A Privately-Guided Petra Vacation</span>
+                  <h4>Why Petra is famously described as "a rose-red city half as old as time"?</h4>
+                  <p>
+                    A spectacular and unique sight, its massive buildings are carved directly into the sandstone cliffs. <br> <br> 
+                    Enclosed by towering rocks and watered by a perennial stream, Petra controlled the ancient commercial routes across the desert to the Persian Gulf. <br><br> 
+                    The impressive eastern entrance leads steeply down through a dark and narrow gorge called the Siq (the shaft), a natural geological feature formed from a deep split in the sandstone rocks. <br><br>
+                    It opens directly onto Petra's most elaborate ruin, Al Khazneh ("the Treasury") hewn directly out of the sandstone cliff. <br><br> 
+                    A little farther from the Treasury is a massive theatre, so placed as to bring the greatest number of tombs within view; 
+                    and at the point where the valley opens out into the plain the site of the city is revealed with striking effect. <br><br>
+                    Almost enclosing it on three sides are rose-coloured mountain walls, divided into groups by deep fissures, and lined with tombs cut from the rock in the form of towers.
+                  </p>
+                  <div class="user">
+                    <img src="./assets/user1.jpg" alt="photo of a male user" />
+                    <div class="user-info">
+                      <h5>Joy Jie</h5>
+                      <small>2h ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <img src="./assets/greece.jpg" alt="phtoto of Santorini Greece" />
+                </div>
+                <div class="card-body">
+                  <span class="tag tag-teal">Greece the first civilizations on the planet</span>
+                  <h4>
+                    Step back in time to one of the first civilizations on the planet!
+                  </h4>
+                  <p>
+                    This is the country where the first-ever Olympic games took place and where the stories of ancient myths and epic Greek gods come to life. <br><br>
+                    There is no better place to gain a deeper understanding of Greek history than the Acropolis, Athens. <br><br>
+                    Walk among the towering columns, seeing this wonderful display of architecture that has been replicated the world over.
+                <h4>
+                    Wild Island Beauty
+                </h4>
+                <p>Once you reach the wild and beautiful shores of the islands, your heart will truly belong to Greece.<br><br>
+                 As the boat docks in the harbor, gaze upon white and blue houses, craggy cliffs, sweeping olive groves, and the dazzling blues of the Aegean sea. <br><br>
+                 There’s nothing better than hiking along the rocky footpaths, accompanied only by the noise of donkeys and cicadas. <br><br>
+                 The most unforgettable moment though is when you break through the shade of the pine trees to find that secret cove you’ve been looking for. <br><br>
+                 Hop in the crystal clear water, taking in every glimpse of colorful fish, turtles, and dolphins. <br><br>
+                 This is Greece and it will leave a sandy, salty, sunny imprint on your heart forever.
+                  </p>
+                  <div class="user">
+                    <img src="./assets/user2.jpg" alt="photo of a male user" />
+                    <div class="user-info">
+                      <h5>Lewis Lewis</h5>
+                      <small>Yesterday</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <img src="./assets/cappadocia.jpg" alt="photo of Cappadocia Turkey" />
+                </div>
+                <div class="card-body">
+                  <span class="tag tag-teal">Cappadocia</span>
+                  <h4>Best Things To Do in Cappadocia: A Guide to the Hot Air Balloons</h4>
+                  <p>
+                    Cappadocia, Turkey: a wonder of the world that is truly a dream come to life. Discover moon-like landscapes, hotels inside caves, and hundreds of hot air balloons floating across the golden sky. Whether you’re hiking between rock formations, riding on horseback at sunset, or lying down under a blanket of stars, every experience in Cappadocia is magical. This will be a bucket-list trip of moments that leave a mark on your mind and heart forever. <br><br>
+                </p>
+                    <h4>Welcome to Magical Cappadocia!</h4>
+                    <p>
+                    Cappadocia is situated in Central Anatolia, one of Turkey’s most beautiful regions, if not the world! The area of Cappadocia became famous for its unique landscapes, filled with mushroom-shaped rock formations and deep valleys, created through the years from volcanic activity and erosion. <br><br>
+                    It’s hard to believe that nature itself can create this kind of otherworldly scenery, likened by many to the moon! Over hundreds of years, the people of this region have used what nature has given them by carving the rock into houses, churches, and underground towns.
+                  </p>
+                  <div class="user">
+                    <img src="./assets/user3.jpg" alt="photo of a female user" />
+                    <div class="user-info">
+                      <h5>Carrie Carrie</h5>
+                      <small>19 August 2021</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <img src="./assets/maldives.jpg" alt="photo of the Maldives Sea" />
+                </div>
+                <div class="card-body">
+                  <span class="tag tag-teal">The Maldives is a desert island experience like no other</span>
+                  <p> <h4> Seize the once in a lifetime opportunity to travel to this remote oasis! </h4> 
+                    Discover a stunning paradise of over 1000 reef fringed islands, home to the best beaches in the world! 
+                    Not only is the sand the whitest, but the water is the clearest, the wildlife totally spectacular, and the palm tree forests beyond magnificent. 
+                    All this natural beauty is waiting to be discovered in the wonderful Maldives! <br><br>
+                  </p>
+                <h4>Islands of Romance</h4>
+                <p>
+                The Maldives speaks the language of love. <br><br>
+                Here, candlelit dinners, romantic barefoot strolls along the beach, and balmy nights of stargazing are everyday events. 
+                This romantic atmosphere, and the many private islands that house beautiful water villas, make it the ultimate luxury honeymoon getaway. <br><br> 
+                However, there’s good news for those looking for something a little less extravagant. Charming guesthouses are popping up all over the islands, making it a great budget-friendly destination too.
+                </p>
+                <h4>Tropical Wonderland</h4>
+                <p>
+                There aren’t many places where it’s possible to paddle out in the warm shallows and interact with deep-sea wildlife. <br><br>
+                Even more so, without donning the oxygen tank and wetsuit. By day, experience the spectacular colors of the ocean’s wildlife and corals, or swim with dolphins, turtles, and sharks. <br><br> 
+                By night see the ocean sparkle like the stars, as plankton light up the water. <br><br>
+                The magical sights, and special atmosphere, of the Maldives, will capture hearts and create the tropical memories of a lifetime!
+                </p>
+                  <div class="user">
+                    <img src="./assets/user4.jpg" alt="photo of a male user" />
+                    <div class="user-info">
+                      <h5>Jony Jony</h5>
+                      <small>15 July 2022</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <img src="./assets/china.jpg" alt="photo of China" />
+                </div>
+                <div class="card-body">
+                  <span class="tag tag-teal">China</span>
+                  <h4>China is a country full of rich history and culture </h4>
+                    China the most fascinating places in the world! Bustling metropolises like Shanghai and Hong Kong are contrasted by breathtaking natural scenery like Zhangjiajie’s “Floating” Peaks and impressive historical sites like The Great Wall of China. <br><br>
+                    But planning a trip here is not as easy as other destinations around the world—with restrictions on social media apps, and a potentially massive culture shock, you’ll need to do your research beforehand to help your trip go smoothly.<br><br>
+                    <h4>China is a massive country that’s home to diverse landscapes and climates</h4>
+                    Divers climates making it difficult to pinpoint the best time to travel to the country. If you’re after warm weather with fewer thundershowers, plan your trip to China in the spring (March to May) or the fall (September and November).<br><br>
+                    You’ll be around for the changing of the seasons. Picture blooming cherry blossoms lining the walkways in Beijing’s Yuyuantan Park and beautiful autumnal hues and multicolored lakes inside Sichuan’s UNESCO Jiuzhaigou Nature Reserve. <br><br>
+                    If you can handle snow, China is beautiful (but very cold) in the winter. Pack your warmest layers and get ready to scoop up amazing deals on flights, accommodation, and entry tickets!
+                    <div class="user">
+                    <img src="./assets/user5.jpg" alt="photo of a male user" />
+                    <div class="user-info">
+                      <h5>Charli Charli</h5>
+                      <small>10 June 2022</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <img src="./assets/venice.jpg" alt="photo of Venice Italy" />
+                </div>
+                <div class="card-body">
+                  <span class="tag tag-teal">Tips for Visiting Venice in Italy</span>
+                  <h4>Pay Attention to the Location of Your Accommodation in Venice</h4>
+                  <p>“If you go to Venice, book a flight and get a hotel somewhere in the city” – that’s the worst advice anyone can give you.<br><br>
+                      Specificity matters, you should pay close attention to which airport you’re flying to (VCE Marco Polo is great, but Treviso Airport is very far away).
+                  </p>
+                  <h4>Get a Vaporetto Tourist Pass</h4>
+                    <p> If you get lost (which happens to everyone in Venice) or you’re simply too tired of walking around you can hop on and off a Vaporetto. It’s a “water taxi” but I would rather call it a “water bus”.
+                    </p>
+                    <h4>Be Prepared for Crowds</h4>
+                    <p>Venice is beautiful in the summer, but unfortunately, you’re not the only person who thinks so. Be prepared for a gorgeous, yet crowded experience with a lot of tourists running around.<br><br>
+                    It may seem like everywhere you go is full of people, especially between 10 a.m. and 3 p.m. when the cruise ships pull in and take their passengers onshore for excursions to the museums in the Piazza San Marco.
+                    </p>
+                    <div class="user">
+                    <img src="./assets/user6.jpg" alt="photo of a female user" />
+                    <div class="user-info">
+                      <h5>Anna Anna</h5>
+                      <small>19 May 2022</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+    </div>
+    <footer class="footer-distributed">
+			<div class="footer-right">
+				<a href="#"><i class="fa-brands fa-facebook"></i></a>
+				<a href="#"><i class="fa-brands fa-twitter"></i></a>
+				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+
+			<div class="footer-left">
+				<p class="footer-links">
+					<a href="#">Destinations</a>
+					<a href="./about.html">About</a>
+					<a href="#">Travel tips</a>
+					<a href="#">Contact us</a>
+				</p>
+
+				<p>To Travel is to Live Blog  &copy; 2022</p>
+			</div>
+
+		</footer>
+</div>
 </body>
 </html>

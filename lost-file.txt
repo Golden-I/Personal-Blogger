@@ -1,0 +1,1168 @@
+commit a166c56458a2e1d696e9a36c800ab07db9945d03
+Author: Golden-I <65423579+Golden-I@users.noreply.github.com>
+Date:   Sun Aug 21 19:15:51 2022 +0300
+
+    final
+
+diff --git a/.DS_Store b/.DS_Store
+index 169f81a..857cdfe 100644
+Binary files a/.DS_Store and b/.DS_Store differ
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..2ba78cd
+--- /dev/null
++++ b/about.html
+@@ -0,0 +1,87 @@
++<!DOCTYPE html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8">
++    <meta http-equiv="X-UA-Compatible" content="IE=edge">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>About Me</title>
++
++    <!-- custom style-->
++    <link rel="stylesheet" href="./css/main style.css">
++    <link rel="stylesheet" href="./css/about.css">
++    <script src="https://kit.fontawesome.com/ebcced0539.js" crossorigin="anonymous"></script>
++</head>
++
++<body>
++    <div class="container">
++    <nav class="head">
++        <a href="./index.html">
++          <img src="./assets/Logo small.jpg" alt="Logo" class="logo-responsive">
++        </a>
++     <div id="menu" class="nav-bar"ß>
++        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
++        <ul>
++          <li><a class='dropdown-arrow' href='http://'>Destinations</a>
++            <ul class='sub-menus'>
++              <li><a href='http://'>Europe</a></li>
++              <li><a href='http://'>Middle East </a></li>
++              <li><a href='http://'>Far East</a></li>
++              <li><a href='http://'>America</a></li>
++            </ul>
++          </li>
++          <li><a href='./about.html'>About</a></li>
++          <li><a class='dropdown-arrow' href='http://'>Travel tips</a>
++            <ul class='sub-menus'>
++              <li><a href='http://'>Tip 1</a></li>
++              <li><a href='http://'>Tip 2</a></li>
++              <li><a href='http://'>Tip 3</a></li>
++            </ul>
++          </li>
++          <li><a href='http://'>Contact Us</a></li>
++        </ul>
++    </div>
++    <div>
++    <a href="#" class="signUp">SIGN UP</a>
++    <a href="#" class="signIn">SIGN IN</a>
++</div>      
++</nav>
++<!-- about -->
++<div class="main">
++<div class = "about-wrapper">
++  <div class = "about-left">
++    <div class = "about-left-content">
++      <div>
++        <div class = "shadow">
++          <div class = "about-img">
++            <img src = "./assets/avatar 105 x 150.png" alt = "about image">
++          </div>
++        </div>
++
++        <h2> Manal Hazboun</h2>
++        <h3>Web developer student</h3>
++      </div>
++
++      <ul class = "icons">
++     <li><i class="fa-brands fa-facebook"></i></li> 
++     <li><i class="fa-brands fa-twitter"></i></li>
++     <li><i class="fa-brands fa-instagram"></i></li>
++    </ul>
++    </div>
++    
++  </div>
++
++  <div class = "about-right">
++
++    <h2>Here's who I am & what I do</h2>
++    <p>
++      <span class="emphasis">I am a student of Master School and I hate Java Script
++      </span>
++    </p>
++    <div class = "about-para">
++      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua.</p>
++      <p>Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Morbi leo urna molestie at.</p>
++    </div>
++</div>
++</div>
++</body>
++</html>
+diff --git a/assets/.DS_Store b/assets/.DS_Store
+new file mode 100644
+index 0000000..5008ddf
+Binary files /dev/null and b/assets/.DS_Store differ
+diff --git "a/assets/pexels-nancy-w\303\244chtler-5857863.jpg" b/assets/China.jpg
+similarity index 100%
+rename from "assets/pexels-nancy-w\303\244chtler-5857863.jpg"
+rename to assets/China.jpg
+diff --git a/assets/pexels-jimmy-teoh-1010657.jpg b/assets/Greece.jpg
+similarity index 100%
+rename from assets/pexels-jimmy-teoh-1010657.jpg
+rename to assets/Greece.jpg
+diff --git a/assets/Logo small.jpg b/assets/Logo small.jpg
+new file mode 100644
+index 0000000..9dc8836
+Binary files /dev/null and b/assets/Logo small.jpg differ
+diff --git a/assets/pexels-asad-photo-maldives-3155666.jpg b/assets/Maldives 2.jpg
+similarity index 100%
+rename from assets/pexels-asad-photo-maldives-3155666.jpg
+rename to assets/Maldives 2.jpg
+diff --git a/assets/pexels-asad-photo-maldives-2549018.jpg b/assets/Maldives.jpg
+similarity index 100%
+rename from assets/pexels-asad-photo-maldives-2549018.jpg
+rename to assets/Maldives.jpg
+diff --git a/assets/pexels-alex-azabache-3214958.jpg b/assets/Petra.jpg
+similarity index 100%
+rename from assets/pexels-alex-azabache-3214958.jpg
+rename to assets/Petra.jpg
+diff --git a/assets/pexels-olya-kobruseva-5227440.jpg b/assets/Venice.jpg
+similarity index 100%
+rename from assets/pexels-olya-kobruseva-5227440.jpg
+rename to assets/Venice.jpg
+diff --git a/assets/avatar 105 x 150.png b/assets/avatar 105 x 150.png
+new file mode 100644
+index 0000000..172db08
+Binary files /dev/null and b/assets/avatar 105 x 150.png differ
+diff --git a/assets/avatar.png b/assets/avatar.png
+new file mode 100644
+index 0000000..97dd321
+Binary files /dev/null and b/assets/avatar.png differ
+diff --git a/assets/pexels-taryn-elliott-3889742.jpg b/assets/cappadocia 1.jpg
+similarity index 100%
+rename from assets/pexels-taryn-elliott-3889742.jpg
+rename to assets/cappadocia 1.jpg
+diff --git a/assets/pexels-francesco-ungaro-2325446.jpg b/assets/cappadocia.jpg
+similarity index 100%
+rename from assets/pexels-francesco-ungaro-2325446.jpg
+rename to assets/cappadocia.jpg
+diff --git a/assets/pexels-ajay-donga-2174656.jpg b/assets/pexels-ajay-donga-2174656.jpg
+deleted file mode 100644
+index bab2062..0000000
+Binary files a/assets/pexels-ajay-donga-2174656.jpg and /dev/null differ
+diff --git a/assets/pexels-anastasiya-vragova-6791741.jpg b/assets/pexels-anastasiya-vragova-6791741.jpg
+deleted file mode 100644
+index 6a72445..0000000
+Binary files a/assets/pexels-anastasiya-vragova-6791741.jpg and /dev/null differ
+diff --git a/assets/pexels-arthouse-studio-4413762.jpg b/assets/pexels-arthouse-studio-4413762.jpg
+deleted file mode 100644
+index f06e0ae..0000000
+Binary files a/assets/pexels-arthouse-studio-4413762.jpg and /dev/null differ
+diff --git a/assets/pexels-asad-photo-maldives-1591373.jpg b/assets/pexels-asad-photo-maldives-1591373.jpg
+deleted file mode 100644
+index 6f029c2..0000000
+Binary files a/assets/pexels-asad-photo-maldives-1591373.jpg and /dev/null differ
+diff --git a/assets/pexels-chevanon-photography-333525.jpg b/assets/pexels-chevanon-photography-333525.jpg
+deleted file mode 100644
+index e1b22d4..0000000
+Binary files a/assets/pexels-chevanon-photography-333525.jpg and /dev/null differ
+diff --git a/assets/pexels-dominika-roseclay-1252500.jpg b/assets/pexels-dominika-roseclay-1252500.jpg
+deleted file mode 100644
+index 106bfe7..0000000
+Binary files a/assets/pexels-dominika-roseclay-1252500.jpg and /dev/null differ
+diff --git a/assets/pexels-element-digital-1051073.jpg b/assets/pexels-element-digital-1051073.jpg
+deleted file mode 100644
+index a18de33..0000000
+Binary files a/assets/pexels-element-digital-1051073.jpg and /dev/null differ
+diff --git a/assets/pexels-element-digital-1051075.jpg b/assets/pexels-element-digital-1051075.jpg
+deleted file mode 100644
+index d58d46c..0000000
+Binary files a/assets/pexels-element-digital-1051075.jpg and /dev/null differ
+diff --git a/assets/pexels-gabriela-palai-507410.jpg b/assets/pexels-gabriela-palai-507410.jpg
+deleted file mode 100644
+index c5d16b0..0000000
+Binary files a/assets/pexels-gabriela-palai-507410.jpg and /dev/null differ
+diff --git a/assets/pexels-julia-volk-5193139.jpg b/assets/pexels-julia-volk-5193139.jpg
+deleted file mode 100644
+index 2b92c04..0000000
+Binary files a/assets/pexels-julia-volk-5193139.jpg and /dev/null differ
+diff --git a/assets/pexels-kseniya-budko-8165146.jpg b/assets/pexels-kseniya-budko-8165146.jpg
+deleted file mode 100644
+index 2ff6b00..0000000
+Binary files a/assets/pexels-kseniya-budko-8165146.jpg and /dev/null differ
+diff --git a/assets/pexels-leah-kelley-3935702.jpg b/assets/pexels-leah-kelley-3935702.jpg
+deleted file mode 100644
+index 3e9f4e3..0000000
+Binary files a/assets/pexels-leah-kelley-3935702.jpg and /dev/null differ
+diff --git a/assets/pexels-lina-kivaka-5623947.jpg b/assets/pexels-lina-kivaka-5623947.jpg
+deleted file mode 100644
+index 5d37d99..0000000
+Binary files a/assets/pexels-lina-kivaka-5623947.jpg and /dev/null differ
+diff --git a/assets/pexels-maksim-goncharenok-4352246.jpg b/assets/pexels-maksim-goncharenok-4352246.jpg
+deleted file mode 100644
+index a9ef519..0000000
+Binary files a/assets/pexels-maksim-goncharenok-4352246.jpg and /dev/null differ
+diff --git a/assets/pexels-nappy-1058959.jpg b/assets/pexels-nappy-1058959.jpg
+deleted file mode 100644
+index 3356382..0000000
+Binary files a/assets/pexels-nappy-1058959.jpg and /dev/null differ
+diff --git a/assets/pexels-nubia-navarro-(nubikini)-386009.jpg b/assets/pexels-nubia-navarro-(nubikini)-386009.jpg
+deleted file mode 100644
+index 9de4f55..0000000
+Binary files a/assets/pexels-nubia-navarro-(nubikini)-386009.jpg and /dev/null differ
+diff --git a/assets/pexels-oleksandr-pidvalnyi-1008155.jpg b/assets/pexels-oleksandr-pidvalnyi-1008155.jpg
+deleted file mode 100644
+index 3f387b0..0000000
+Binary files a/assets/pexels-oleksandr-pidvalnyi-1008155.jpg and /dev/null differ
+diff --git a/assets/pexels-philip-warp-6185777.jpg b/assets/pexels-philip-warp-6185777.jpg
+deleted file mode 100644
+index ce539e3..0000000
+Binary files a/assets/pexels-philip-warp-6185777.jpg and /dev/null differ
+diff --git "a/assets/pexels-pierre-blach\303\251-2901209.jpg" "b/assets/pexels-pierre-blach\303\251-2901209.jpg"
+deleted file mode 100644
+index dc93f57..0000000
+Binary files "a/assets/pexels-pierre-blach\303\251-2901209.jpg" and /dev/null differ
+diff --git "a/assets/pexels-pierre-blach\303\251-2901215.jpg" "b/assets/pexels-pierre-blach\303\251-2901215.jpg"
+deleted file mode 100644
+index 3d11abd..0000000
+Binary files "a/assets/pexels-pierre-blach\303\251-2901215.jpg" and /dev/null differ
+diff --git a/assets/pexels-pixabay-413960.jpg b/assets/pexels-pixabay-413960.jpg
+deleted file mode 100644
+index ad7403f..0000000
+Binary files a/assets/pexels-pixabay-413960.jpg and /dev/null differ
+diff --git a/assets/pexels-porapak-apichodilok-346885.jpg b/assets/pexels-porapak-apichodilok-346885.jpg
+deleted file mode 100644
+index af987a0..0000000
+Binary files a/assets/pexels-porapak-apichodilok-346885.jpg and /dev/null differ
+diff --git a/assets/pexels-roman-odintsov-4553618.jpg b/assets/pexels-roman-odintsov-4553618.jpg
+deleted file mode 100644
+index 7f76e45..0000000
+Binary files a/assets/pexels-roman-odintsov-4553618.jpg and /dev/null differ
+diff --git a/assets/pexels-spencer-davis-4353638.jpg b/assets/pexels-spencer-davis-4353638.jpg
+deleted file mode 100644
+index a4e7ec6..0000000
+Binary files a/assets/pexels-spencer-davis-4353638.jpg and /dev/null differ
+diff --git a/assets/pexels-spencer-davis-4353813.jpg b/assets/pexels-spencer-davis-4353813.jpg
+deleted file mode 100644
+index 43eff92..0000000
+Binary files a/assets/pexels-spencer-davis-4353813.jpg and /dev/null differ
+diff --git a/assets/pexels-spencer-davis-4356144.jpg b/assets/pexels-spencer-davis-4356144.jpg
+deleted file mode 100644
+index 7ebf8d8..0000000
+Binary files a/assets/pexels-spencer-davis-4356144.jpg and /dev/null differ
+diff --git a/assets/pexels-stefan-stefancik-127905.jpg b/assets/pexels-stefan-stefancik-127905.jpg
+deleted file mode 100644
+index bd7866b..0000000
+Binary files a/assets/pexels-stefan-stefancik-127905.jpg and /dev/null differ
+diff --git a/assets/pexels-stijn-dijkstra-2499699.jpg b/assets/pexels-stijn-dijkstra-2499699.jpg
+deleted file mode 100644
+index 4083069..0000000
+Binary files a/assets/pexels-stijn-dijkstra-2499699.jpg and /dev/null differ
+diff --git a/assets/pexels-taryn-elliott-3889753.jpg b/assets/pexels-taryn-elliott-3889753.jpg
+deleted file mode 100644
+index 063125d..0000000
+Binary files a/assets/pexels-taryn-elliott-3889753.jpg and /dev/null differ
+diff --git a/assets/pexels-taryn-elliott-3889855.jpg b/assets/pexels-taryn-elliott-3889855.jpg
+deleted file mode 100644
+index 9735ee6..0000000
+Binary files a/assets/pexels-taryn-elliott-3889855.jpg and /dev/null differ
+diff --git a/assets/pexels-tirachard-kumtanom-347141.jpg b/assets/pexels-tirachard-kumtanom-347141.jpg
+deleted file mode 100644
+index 56740b2..0000000
+Binary files a/assets/pexels-tirachard-kumtanom-347141.jpg and /dev/null differ
+diff --git a/assets/pexels-vincent-rivaud-2265876.jpg b/assets/pexels-vincent-rivaud-2265876.jpg
+deleted file mode 100644
+index 183686e..0000000
+Binary files a/assets/pexels-vincent-rivaud-2265876.jpg and /dev/null differ
+diff --git a/assets/user1.jpg b/assets/user1.jpg
+new file mode 100644
+index 0000000..91b377c
+Binary files /dev/null and b/assets/user1.jpg differ
+diff --git a/assets/user2.jpg b/assets/user2.jpg
+new file mode 100644
+index 0000000..e430afe
+Binary files /dev/null and b/assets/user2.jpg differ
+diff --git a/assets/user3.jpg b/assets/user3.jpg
+new file mode 100644
+index 0000000..7f1466c
+Binary files /dev/null and b/assets/user3.jpg differ
+diff --git a/assets/user4.jpg b/assets/user4.jpg
+new file mode 100644
+index 0000000..ae13bc3
+Binary files /dev/null and b/assets/user4.jpg differ
+diff --git a/assets/user5.jpg b/assets/user5.jpg
+new file mode 100644
+index 0000000..5d7d409
+Binary files /dev/null and b/assets/user5.jpg differ
+diff --git a/assets/user6.jpg b/assets/user6.jpg
+new file mode 100644
+index 0000000..787d1e2
+Binary files /dev/null and b/assets/user6.jpg differ
+diff --git a/css/.DS_Store b/css/.DS_Store
+new file mode 100644
+index 0000000..5008ddf
+Binary files /dev/null and b/css/.DS_Store differ
+diff --git a/css/about.css b/css/about.css
+new file mode 100644
+index 0000000..a215bdf
+--- /dev/null
++++ b/css/about.css
+@@ -0,0 +1,192 @@
++
++@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
++
++*{
++    padding: 0;
++    margin: 0;
++    box-sizing: border-box;
++}
++body{
++    font-family: 'Poppins', sans-serif;
++}
++.about-wrapper{
++    height: 100vh;
++}
++.about-left{
++    background-color: #21D4FD;
++    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
++    display: flex;
++    flex-direction: column;
++    align-items: center;
++    justify-content: center;
++    height: 100vh;
++    color:#fff
++}
++.about-left-content > div{
++    background: #12192c;
++    padding: 4rem 4rem 2.5rem 5rem;
++    text-align: center;
++    
++    border-radius: 12px 12px 0 0;
++}
++.about-left-content{
++    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
++    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
++    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
++    border-radius: 12px;
++    width:80%;
++}
++.about-img img{
++    display: block;
++    width: 200px;
++}
++.about-img{
++    width: 150px;
++    height: 150px;
++    overflow: hidden;
++    border-radius: 50%;
++    transition: all 0.5s ease-in-out;
++}
++.shadow{
++    margin-left: auto;
++    margin-right: auto;
++    border-radius: 50%;
++    width: 150px;
++    height: 150px;
++}
++
++.about-left-content h2{
++    font-size: 2rem;
++    margin: 2.2rem 0 0.6rem 0;
++    line-height: 1.2;
++    padding-bottom: 1rem;
++    border-bottom: 2px solid #B721FF;
++}
++.about-left-content h3{
++    text-transform: uppercase;
++    font-weight: 300;
++    letter-spacing: 5px;
++    margin-top: 1.2rem;
++}
++.icons{
++    background: #12192c;
++    display: flex;
++    justify-content: center;
++    padding: 0.8rem 0;
++    border-radius: 0 0 12px 12px;
++}
++.icons li{
++    list-style-type: none;
++    background: #B721FF;
++    color: #fff;
++    width: 40px;
++    height: 40px;
++    margin: 0 0.5rem;
++    border-radius: 50%;
++    display: flex;
++    justify-content: center;
++    align-items: center;
++    font-size: 1.2rem;
++    cursor: pointer;
++    transition: all 0.5s ease-in-out;
++}
++.icons li:hover{
++    background: #edffec;
++    color: #000;
++}
++.about-right{
++    background: #12192c;
++    height: 100vh;
++    display: flex;
++    flex-direction: column;
++    align-items: center;
++    justify-content: center;
++    padding: 0 5rem;
++    text-align: center;
++    color:#fff
++}
++.about-right h1{
++    font-size: 5rem;
++    text-decoration: italic;
++    text-transform: uppercase;
++}
++.emphasis {
++  background: blueviolet;
++  font-style: italic;
++}
++.about-right h1 span{
++    color: #B721FF;
++}
++.about-right h2{
++    font-weight: 600;
++}
++.about-btns{
++    display: flex;
++    margin: 2rem 0;
++}
++.btn{
++    border: none;
++    font-size: 0.9rem;
++    text-transform: uppercase;
++    border: 2px solid #fff;
++    border-radius: 20px;
++    padding: 0.55rem 0;
++    width: 130px;
++    font-weight: 600;
++    background: transparent;
++    margin: 0 0.5rem;
++    cursor: pointer;
++    color:#fff
++}
++.btn.btn-pink{
++    background: #B721FF;
++    color: #fff;
++    border-color: #B721FF;
++    transition: all 0.5s ease-in-out;
++}
++.btn.btn-pink:hover{
++    background: transparent;
++    border-color: #fff;
++    color: #fff;
++}
++.btn.btn-white{
++    transition: all 0.5s ease-in-out;
++}
++.btn.btn-white:hover{
++    background: #B721FF;
++    border-color: #B721FF;
++    color: #fff;
++}
++.about-para p{
++    font-weight: 300;
++    padding: 0.5rem;
++    opacity: 0.8;
++}
++@media screen and (min-width: 992px){
++    .about-wrapper{
++        display: grid;
++        grid-template-columns: repeat(2, 2fr);
++    }
++
++    .about-left{
++        position: relative;
++    }
++    .about-left-content{
++        position: absolute;
++        padding:0;
++        width:80%
++    
++    }
++}
++.credit{
++    text-align: center;
++    color: #fff;
++    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
++}
++.credit a{
++    text-decoration: none;
++    color:#B721FF;
++    font-weight: bold;
++} 
++
++
+diff --git a/css/card style.css b/css/card style.css
+new file mode 100644
+index 0000000..2e0680f
+--- /dev/null
++++ b/css/card style.css	
+@@ -0,0 +1,96 @@
++/* cards style */
++@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
++
++* {
++  box-sizing: border-box;
++}
++body {
++  background-color: #f3fbfb;
++  font-family: "Open Sans", sans-serif;
++  display: flex;
++  align-items: center;
++  justify-content: center;
++  height: 100vh;
++  margin: 0;
++}
++.container {
++  display: grid;
++  grid-template-columns: repeat(3, 1fr);
++  gap: 20px;
++  width: 940px;
++  margin: auto;
++}
++.card {
++  background-color: #fff;
++  border-radius: 10px;
++  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
++  overflow: hidden;
++  width: 300px;
++  
++}
++.card-header img {
++  width: 100%;
++  height: 200px;
++  object-fit: cover;
++}
++.card-body {
++  display: flex;
++  flex-direction: column;
++  align-items: start;
++  padding: 20px;
++  min-height: 250px;
++}
++.tag {
++  background-color: #ccc;
++  color: #fff;
++  border-radius: 50px;
++  font-size: 12px;
++  margin: 0;
++  padding: 2px 10px;
++  text-transform: uppercase;
++}
++.tag-teal {
++  background-color: #92d4e4;
++}
++.tag-purple {
++  background-color: #3d1d94;
++}
++.tag-pink {
++  background-color: #c62bcd;
++}
++.card-body h4 {
++  margin: 10px 0;
++}
++.card-body p {
++  font-size: 14px;
++  margin: 0 0 40px 0;
++  font-weight: 500;
++  color: rgb(70, 68, 68);
++}
++.user {
++  display: flex;
++  margin-top: auto;
++}
++.user img {
++  width: 40px;
++  height: 40px;
++  border-radius: 50%;
++  margin-right: 10px;
++  object-fit: cover;
++}
++.user-info h5 {
++  margin: 0;
++}
++.user-info small {
++  color: #888785;
++}
++@media (max-width: 940px) {
++  .container {
++    grid-template-columns: 1fr;
++    justify-items: center;
++  }
++}
++
++
++ .social-media { grid-area: contact }
++ .footer { grid-area: footer } 
+diff --git a/css/footer.css b/css/footer.css
+new file mode 100644
+index 0000000..17f78dc
+--- /dev/null
++++ b/css/footer.css
+@@ -0,0 +1,105 @@
++  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
++
++
++  * {
++    font-family: Roboto;
++  }
++  
++  .section {
++    width: 100%;
++    display: inline-block;
++    background: #ccc;
++    height: 60vh;
++    text-align: center;
++    font-size: 22px;
++    font-weight: 700;
++    text-decoration: underline;
++  }
++  
++  .footer-distributed {
++    background-color: #0099CC;
++    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
++    box-sizing: border-box;
++    width: 100%;
++    text-align: left;
++    font: normal 16px sans-serif;
++    padding: 45px 50px;
++  }
++  
++  .footer-distributed .footer-left p {
++    color: #f9f6f4;
++    font-size: 14px;
++    margin: 0;
++  }
++  /* Footer links */
++  
++  .footer-distributed p.footer-links {
++    font-size: 18px;
++    font-weight: bold;
++    color: #ffffff;
++    margin: 0 0 10px;
++    padding: 0;
++    transition: ease .25s;
++  }
++  
++  .footer-distributed p.footer-links a {
++    display: inline-block;
++    line-height: 1.8;
++    text-decoration: none;
++    color: inherit;
++    transition: ease .25s;
++  }
++  
++  .footer-distributed .footer-links a:before {
++    content: "·";
++    font-size: 20px;
++    left: 0;
++    color: #fff;
++    display: inline-block;
++    padding-right: 5px;
++  }
++  
++  .footer-distributed .footer-links .link-1:before {
++    content: none;
++  }
++  
++  .footer-distributed .footer-right {
++    float: right;
++    margin-top: 6px;
++    max-width: 180px;
++  }
++  
++  .footer-distributed .footer-right a {
++    display: inline-block;
++    width: 35px;
++    height: 35px;
++    background-color: #33383b;
++    border-radius: 2px;
++    font-size: 20px;
++    color: #ffffff;
++    text-align: center;
++    line-height: 35px;
++    margin-left: 3px;
++    transition:all .25s;
++  }
++  
++  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
++  
++  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
++  
++  /* Media Queries */
++  
++  @media (max-width: 600px) {
++    .footer-distributed .footer-left, .footer-distributed .footer-right {
++      text-align: center;
++    }
++    .footer-distributed .footer-right {
++      float: none;
++      margin: 0 auto 20px;
++    }
++    .footer-distributed .footer-left p.footer-links {
++      line-height: 1.8;
++    }
++  }
++   
++  
+\ No newline at end of file
+diff --git a/css/main style.css b/css/main style.css
+new file mode 100644
+index 0000000..c7bd3a7
+--- /dev/null
++++ b/css/main style.css	
+@@ -0,0 +1,204 @@
++.container {  display: grid;
++   grid-template-areas: "head head head head"
++   "main main main main "
++   " contact contact contact contact"
++   "footer footer footer footer";
++ }
++
++ .head {
++   grid-area: head;
++   display: flex;
++   justify-content:space-between; 
++   align-items: center;
++ }
++ 
++ .logo-responsive {
++   width: 100px;
++ }
++
++ .nav-bar { 
++   margin-top: 0px; 
++   height: 100px;
++   width: 100%;
++   display: flex;
++   justify-content: center;
++
++}
++ 
++ #menu {
++	background: #0099CC;
++	color: #FFF;
++	height: 50px;
++	padding-left: 0px;
++	border-radius: 50px;
++}
++#menu ul, #menu li {
++	margin: 0 auto;
++	padding: 0;
++	list-style: none
++}
++#menu ul {
++	width: 100%;
++}
++#menu li {
++	float: left;
++	display: inline;
++	position: relative;
++}
++#menu a {
++	display: block;
++	line-height: 45px;
++	padding: 0 14px;
++	text-decoration: none;
++	color: #FFFFFF;
++	font-size: 16px;
++}
++#menu a.dropdown-arrow:after {
++	content: "\25BE";
++	margin-left: 5px;
++}
++#menu li a:hover {
++	color: #0099CC;
++	background: #F2F2F2;
++}
++#menu input {
++	display: none;
++	margin: 0;
++	padding: 0;
++	width: 100%;
++	opacity: 0;
++	cursor: pointer;
++}
++#menu label {
++   display: none;
++	line-height: 45px;
++	text-align: center;
++	position: absolute;
++	left: 35px;
++}
++#menu label:before {
++   font-size: 1.6em;
++	content: "\2261"; 
++	margin-left: 20px;
++}
++#menu ul.sub-menus{
++   height: auto;
++	overflow: hidden;
++	width: 170px;
++	background: #6D9DC5;
++	position: absolute;
++	z-index: 99;
++	display: none;
++}
++#menu ul.sub-menus li {
++   display: block;
++	width: 100%;
++}
++#menu ul.sub-menus a {
++   color: #FFFFFF;
++	font-size: 16px;
++}
++#menu li:hover ul.sub-menus {
++   display: block;
++}
++#menu ul.sub-menus a:hover{
++   background: #F2F2F2;
++	color: #6D9DC5;
++}
++@media screen and (max-width: 800px){
++   #menu {
++      position:relative;
++   }
++	#menu ul {background:#3066BE;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
++	#menu ul.sub-menus {width:100%;position:static;}
++	#menu ul.sub-menus a {padding-left:30px;}
++	#menu li {display:block;float:none;width:auto;}
++	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
++	#menu input {
++      z-index:4;
++   height: 25px;
++   }
++	#menu input:checked + label {color:white}
++	#menu input:checked + label:before {content:"\00d7"}
++	#menu input:checked ~ ul {display:block} 
++} 
++
++
++  /*buttons style */
++.signUp {
++	background-color:#d0451b;
++	border-radius:13px;
++	border:1px solid #942911;
++	display:inline-block;
++	cursor:pointer;
++	color:#ffffff;
++	font-family:Arial;
++	font-size:10px;
++	padding:6px 15px;
++	text-decoration:none;
++   text-align: center;
++	text-shadow:0px 1px 0px #854629;
++}
++.signUp:hover {
++	background-color:#6D9DC5;
++}
++.signUp:active {
++	position:relative;
++	top:1px;
++}        
++   
++.signIn {
++	background-color:#44c767;
++	border-radius:13px;
++	border:1px solid #18ab29;
++	display:inline-block;
++	cursor:pointer;
++	color:#ffffff;
++	font-family:Arial;
++	font-size:10px;
++	padding:6px 15px;
++	text-decoration:none;
++   text-align: center;
++	text-shadow:0px 1px 0px #2f6627;
++}
++.signIn:hover {
++	background-color:#6D9DC5;
++}
++.signIn:active {
++	position:relative;
++	top:1px;
++}
++           
++        
++ .main { 
++   grid-area: main;
++   display: flex;
++   flex-wrap: wrap;
++}
++ 
++.flex-container {
++
++   display: flex;
++   
++   justify-content: flex-start; 
++   align-items: baseline; 
++   flex-flow: wrap; 
++   flex-direction: row; 
++   flex-wrap: wrap; 
++   align-content: flex-start;
++   background-color: #bbdefb;
++   height: 100%;
++   padding: 15px;
++   gap: 5px;
++
++ }
++
++ .flex-container > div{
++   background: #ffecb3;
++   border: 3px solid #ffcc80;
++   border-radius: 5px;
++   padding: 8px;
++}
++
++ /* .contact { grid-area: contact } */
++ 
+\ No newline at end of file
+diff --git a/index.html b/index.html
+index c16d719..8c7135f 100644
+--- a/index.html
++++ b/index.html
+@@ -7,9 +7,231 @@
+     <title>Travel Blogger</title>
+ 
+     <!-- custom style-->
+-    <link rel="stylesheet" href="style.css">
++    <link rel="stylesheet" href="./css/main style.css">
++    <link rel="stylesheet" href="./css/card style.css">
++    <link rel="stylesheet" href="./css/footer.css">
++    <script src="https://kit.fontawesome.com/ebcced0539.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+-    
++    <div class="container">
++    <nav class="head">
++        <a href="./index.html">
++            <img src="./assets/Logo small.jpg" alt="Logo" class="logo-responsive">
++          </a>
++     <div id="menu" class="nav-bar"ß>
++        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
++        <ul>
++          <li><a class='dropdown-arrow' href='http://'>Destinations</a>
++            <ul class='sub-menus'>
++              <li><a href='http://'>Europe</a></li>
++              <li><a href='http://'>Middle East </a></li>
++              <li><a href='http://'>Far East</a></li>
++              <li><a href='http://'>America</a></li>
++            </ul>
++          </li>
++          <li><a href='./about.html'>About</a></li>
++          <li><a class='dropdown-arrow' href='http://'>Travel tips</a>
++            <ul class='sub-menus'>
++              <li><a href='http://'>Tip 1</a></li>
++              <li><a href='http://'>Tip 2</a></li>
++              <li><a href='http://'>Tip 3</a></li>
++            </ul>
++          </li>
++          <li><a href='http://'>Contact Us</a></li>
++        </ul>
++    </div>
++    <div>
++    <a href="#" class="signUp">SIGN UP</a>
++    <a href="#" class="signIn">SIGN IN</a>
++</div>      
++</nav>
++
++    <div class="main">
++        <div class="flex-container">
++            <div class="card">
++                <div class="card-header">
++                  <img src="./assets/Petra.jpg" alt="photo of Petra Jordan" />
++                </div>
++                <div class="card-body">
++                  <span class="tag tag-teal">A Privately-Guided Petra Vacation</span>
++                  <h4>Why Petra is famously described as "a rose-red city half as old as time"?</h4>
++                  <p>
++                    A spectacular and unique sight, its massive buildings are carved directly into the sandstone cliffs. <br> <br> 
++                    Enclosed by towering rocks and watered by a perennial stream, Petra controlled the ancient commercial routes across the desert to the Persian Gulf. <br><br> 
++                    The impressive eastern entrance leads steeply down through a dark and narrow gorge called the Siq (the shaft), a natural geological feature formed from a deep split in the sandstone rocks. <br><br>
++                    It opens directly onto Petra's most elaborate ruin, Al Khazneh ("the Treasury") hewn directly out of the sandstone cliff. <br><br> 
++                    A little farther from the Treasury is a massive theatre, so placed as to bring the greatest number of tombs within view; 
++                    and at the point where the valley opens out into the plain the site of the city is revealed with striking effect. <br><br>
++                    Almost enclosing it on three sides are rose-coloured mountain walls, divided into groups by deep fissures, and lined with tombs cut from the rock in the form of towers.
++                  </p>
++                  <div class="user">
++                    <img src="./assets/user1.jpg" alt="photo of a male user" />
++                    <div class="user-info">
++                      <h5>Igor Jie</h5>
++                      <small>2h ago</small>
++                    </div>
++                  </div>
++                </div>
++              </div>
++              <div class="card">
++                <div class="card-header">
++                  <img src="./assets/Greece.jpg" alt="phtoto of Santorini Greece" />
++                </div>
++                <div class="card-body">
++                  <span class="tag tag-teal">Greece the first civilizations on the planet</span>
++                  <h4>
++                    Step back in time to one of the first civilizations on the planet!
++                  </h4>
++                  <p>
++                    This is the country where the first-ever Olympic games took place and where the stories of ancient myths and epic Greek gods come to life. <br><br>
++                    There is no better place to gain a deeper understanding of Greek history than the Acropolis, Athens. <br><br>
++                    Walk among the towering columns, seeing this wonderful display of architecture that has been replicated the world over.
++                <h4>
++                    Wild Island Beauty
++                </h4>
++                <p>Once you reach the wild and beautiful shores of the islands, your heart will truly belong to Greece.<br><br>
++                 As the boat docks in the harbor, gaze upon white and blue houses, craggy cliffs, sweeping olive groves, and the dazzling blues of the Aegean sea. <br><br>
++                 There’s nothing better than hiking along the rocky footpaths, accompanied only by the noise of donkeys and cicadas. <br><br>
++                 The most unforgettable moment though is when you break through the shade of the pine trees to find that secret cove you’ve been looking for. <br><br>
++                 Hop in the crystal clear water, taking in every glimpse of colorful fish, turtles, and dolphins. <br><br>
++                 This is Greece and it will leave a sandy, salty, sunny imprint on your heart forever.
++                  </p>
++                  <div class="user">
++                    <img src="./assets/user2.jpg" alt="photo of a mele user" />
++                    <div class="user-info">
++                      <h5>Lewis Lewis</h5>
++                      <small>Yesterday</small>
++                    </div>
++                  </div>
++                </div>
++              </div>
++              <div class="card">
++                <div class="card-header">
++                  <img src="./assets/cappadocia 1.jpg" alt="photo of Cappadocia Turkey" />
++                </div>
++                <div class="card-body">
++                  <span class="tag tag-teal">Cappadocia</span>
++                  <h4>Best Things To Do in Cappadocia: A Guide to the Hot Air Balloons</h4>
++                  <p>
++                    Cappadocia, Turkey: a wonder of the world that is truly a dream come to life. Discover moon-like landscapes, hotels inside caves, and hundreds of hot air balloons floating across the golden sky. Whether you’re hiking between rock formations, riding on horseback at sunset, or lying down under a blanket of stars, every experience in Cappadocia is magical. This will be a bucket-list trip of moments that leave a mark on your mind and heart forever. <br><br>
++                </p>
++                    <h4>Welcome to Magical Cappadocia!</h4>
++                    <p>
++                    Cappadocia is situated in Central Anatolia, one of Turkey’s most beautiful regions, if not the world! The area of Cappadocia became famous for its unique landscapes, filled with mushroom-shaped rock formations and deep valleys, created through the years from volcanic activity and erosion. <br><br>
++                    It’s hard to believe that nature itself can create this kind of otherworldly scenery, likened by many to the moon! Over hundreds of years, the people of this region have used what nature has given them by carving the rock into houses, churches, and underground towns.
++                  </p>
++                  <div class="user">
++                    <img src="./assets/user3.jpg" alt="photo of a female user" />
++                    <div class="user-info">
++                      <h5>Carrie Carrie</h5>
++                      <small>19 August 2021</small>
++                    </div>
++                  </div>
++                </div>
++              </div>
++              <div class="card">
++                <div class="card-header">
++                  <img src="./assets/Maldives 2.jpg" alt="photo of the Maldives Sea" />
++                </div>
++                <div class="card-body">
++                  <span class="tag tag-teal">The Maldives is a desert island experience like no other</span>
++                  <p> <h4> Seize the once in a lifetime opportunity to travel to this remote oasis! </h4> 
++                    Discover a stunning paradise of over 1000 reef fringed islands, home to the best beaches in the world! 
++                    Not only is the sand the whitest, but the water is the clearest, the wildlife totally spectacular, and the palm tree forests beyond magnificent. 
++                    All this natural beauty is waiting to be discovered in the wonderful Maldives! <br><br>
++                  </p>
++                <h4>Islands of Romance</h4>
++                <p>
++                The Maldives speaks the language of love. <br><br>
++                Here, candlelit dinners, romantic barefoot strolls along the beach, and balmy nights of stargazing are everyday events. 
++                This romantic atmosphere, and the many private islands that house beautiful water villas, make it the ultimate luxury honeymoon getaway. <br><br> 
++                However, there’s good news for those looking for something a little less extravagant. Charming guesthouses are popping up all over the islands, making it a great budget-friendly destination too.
++                </p>
++                <h4>Tropical Wonderland</h4>
++                <p>
++                There aren’t many places where it’s possible to paddle out in the warm shallows and interact with deep-sea wildlife. <br><br>
++                Even more so, without donning the oxygen tank and wetsuit. By day, experience the spectacular colors of the ocean’s wildlife and corals, or swim with dolphins, turtles, and sharks. <br><br> 
++                By night see the ocean sparkle like the stars, as plankton light up the water. <br><br>
++                The magical sights, and special atmosphere, of the Maldives, will capture hearts and create the tropical memories of a lifetime!
++                </p>
++                  <div class="user">
++                    <img src="./assets/user4.jpg" alt="photo of a male user" />
++                    <div class="user-info">
++                      <h5>Jony Jony</h5>
++                      <small>15 July 2022</small>
++                    </div>
++                  </div>
++                </div>
++              </div>
++              <div class="card">
++                <div class="card-header">
++                  <img src="./assets/China.jpg" alt="photo of China" />
++                </div>
++                <div class="card-body">
++                  <span class="tag tag-teal">China</span>
++                  <h4>China is a country full of rich history and culture </h4>
++                    China the most fascinating places in the world! Bustling metropolises like Shanghai and Hong Kong are contrasted by breathtaking natural scenery like Zhangjiajie’s “Floating” Peaks and impressive historical sites like The Great Wall of China. <br><br>
++                    But planning a trip here is not as easy as other destinations around the world—with restrictions on social media apps, and a potentially massive culture shock, you’ll need to do your research beforehand to help your trip go smoothly.<br><br>
++                    <h4>China is a massive country that’s home to diverse landscapes and climates</h4>
++                    Divers climates making it difficult to pinpoint the best time to travel to the country. If you’re after warm weather with fewer thundershowers, plan your trip to China in the spring (March to May) or the fall (September and November).<br><br>
++                    You’ll be around for the changing of the seasons. Picture blooming cherry blossoms lining the walkways in Beijing’s Yuyuantan Park and beautiful autumnal hues and multicolored lakes inside Sichuan’s UNESCO Jiuzhaigou Nature Reserve. <br><br>
++                    If you can handle snow, China is beautiful (but very cold) in the winter. Pack your warmest layers and get ready to scoop up amazing deals on flights, accommodation, and entry tickets!
++                    <div class="user">
++                    <img src="./assets/user5.jpg" alt="photo of a male user" />
++                    <div class="user-info">
++                      <h5>Charli Charli</h5>
++                      <small>10 June 2022</small>
++                    </div>
++                  </div>
++                </div>
++              </div>
++              <div class="card">
++                <div class="card-header">
++                  <img src="./assets/Venice.jpg" alt="photo of Venice Italy" />
++                </div>
++                <div class="card-body">
++                  <span class="tag tag-teal">Tips for Visiting Venice in Italy</span>
++                  <h4>Pay Attention to the Location of Your Accommodation in Venice</h4>
++                  <p>“If you go to Venice, book a flight and get a hotel somewhere in the city” – that’s the worst advice anyone can give you.<br><br>
++                      Specificity matters, you should pay close attention to which airport you’re flying to (VCE Marco Polo is great, but Treviso Airport is very far away).
++                  </p>
++                  <h4>Get a Vaporetto Tourist Pass</h4>
++                    <p> If you get lost (which happens to everyone in Venice) or you’re simply too tired of walking around you can hop on and off a Vaporetto. It’s a “water taxi” but I would rather call it a “water bus”.
++                    </p>
++                    <h4>Be Prepared for Crowds</h4>
++                    <p>Venice is beautiful in the summer, but unfortunately, you’re not the only person who thinks so. Be prepared for a gorgeous, yet crowded experience with a lot of tourists running around.<br><br>
++                    It may seem like everywhere you go is full of people, especially between 10 a.m. and 3 p.m. when the cruise ships pull in and take their passengers onshore for excursions to the museums in the Piazza San Marco.
++                    </p>
++                    <div class="user">
++                    <img src="./assets/user6.jpg" alt="photo of a female user" />
++                    <div class="user-info">
++                      <h5>Anna Anna</h5>
++                      <small>19 May 2022</small>
++                    </div>
++                  </div>
++                </div>
++              </div>
++
++    </div>
++    <footer class="footer-distributed">
++			<div class="footer-right">
++				<a href="#"><i class="fa-brands fa-facebook"></i></a>
++				<a href="#"><i class="fa-brands fa-twitter"></i></a>
++				<a href="#"><i class="fa-brands fa-instagram"></i></a>
++			</div>
++
++			<div class="footer-left">
++				<p class="footer-links">
++					<a href="#">Destinations</a>
++					<a href="./about.html">About</a>
++					<a href="#">Travel tips</a>
++					<a href="#">Contact us</a>
++				</p>
++
++				<p>To Travel is to Live Blog  &copy; 2022</p>
++			</div>
++
++		</footer>
++</div>
+ </body>
+ </html>
+\ No newline at end of file
