@@ -1,3 +1,7 @@
+@import url("/css/about.css");
+@import url("/css/card\ style.css");
+@import url("/css/footer.css");
+
 .container {  display: grid;
        grid-template-areas: "head head head head"
        "main main main main "
