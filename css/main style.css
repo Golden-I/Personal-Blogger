@@ -1,6 +1,6 @@
-@import url("/css/about.css");
-@import url("/css/card\ style.css");
-@import url("/css/footer.css");
+@import url("./about.css");
+@import url("./card-style.css");
+@import url("./footer.css");
 
 .container {  display: grid;
        grid-template-areas: "head head head head"
